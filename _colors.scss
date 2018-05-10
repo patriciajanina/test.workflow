@@ -1,0 +1,12 @@
+$colors: (
+          header-background: #bbbebf,
+          darken-color-one:#333333,
+          darken-color-two:#000000,
+          lighten-color-one:#f5f5f5,
+          lighten-color-two:#ffffff,
+          lighten-color-three:#d3cec7,
+          break-color:#e76378,
+          footer: #666777);
+button {
+  background-color: map-get($colors, mainColor);
+}
